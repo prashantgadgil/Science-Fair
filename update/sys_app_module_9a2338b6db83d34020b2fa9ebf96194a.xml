@@ -2,7 +2,7 @@
 <record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Driven Science Fair">c3ad68fedb43d34020b2fa9ebf961971</application>
+        <application display_value="ACME Inc.">c3ad68fedb43d34020b2fa9ebf961971</application>
         <assessment/>
         <content_page/>
         <device_type/>

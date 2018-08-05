@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
     <element label="Client" max_length="40" name="x_bp3g_driven_client" type="collection">
+        <element label="Billing City" max_length="40" name="billing_city" type="string"/>
+        <element label="Billing State" max_length="40" name="billing_state" type="string"/>
+        <element label="Billing Street" max_length="40" name="billing_street" type="string"/>
+        <element label="Billing Zip" max_length="40" name="billing_zip" type="string"/>
         <element label="Box Folder" max_length="40" name="box_folder" type="string"/>
         <element label="Key" max_length="40" name="key" type="string"/>
-        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Name" mandatory="true" max_length="40" name="name" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Phone" max_length="40" name="phone" type="phone_number_e164"/>
         <element label="SF Account ID" max_length="40" name="sf_account_id" type="string"/>
-        <element label="SF Opportunity ID" max_length="40" name="sf_opportunity_id" type="string"/>
         <element label="Short Description" max_length="40" name="short_description" type="string"/>
         <element label="Slack Channel" max_length="40" name="slack_channel" type="string"/>
+        <element choice="3" default="Prospect" label="Status" mandatory="true" max_length="40" name="status" type="choice">
+            <choice>
+                <element label="Prospect" sequence="0" value="Prospect"/>
+                <element label="Signed" sequence="1" value="Signed"/>
+                <element label="Inactive" sequence="2" value="Inactive"/>
+            </choice>
+        </element>
     </element>
 </database>

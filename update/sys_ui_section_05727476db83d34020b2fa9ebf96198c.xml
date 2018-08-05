@@ -5,55 +5,55 @@
             <element>number</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-05 18:19:35</sys_created_on>
-            <sys_id>e50334b6db83d34020b2fa9ebf9619e8</sys_id>
+            <sys_created_on>2018-07-17 14:32:16</sys_created_on>
+            <sys_id>fc127126db9fdb0020b2fa9ebf96198f</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 18:19:35</sys_updated_on>
+            <sys_updated_on>2018-07-17 14:32:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>id</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-17 14:32:16</sys_created_on>
+            <sys_id>bc127126db9fdb0020b2fa9ebf961990</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-17 14:32:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>client</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-05 18:19:35</sys_created_on>
-            <sys_id>a50334b6db83d34020b2fa9ebf9619e9</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 18:19:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>from</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-05 18:19:35</sys_created_on>
-            <sys_id>650334b6db83d34020b2fa9ebf9619ea</sys_id>
+            <sys_created_on>2018-07-17 14:32:16</sys_created_on>
+            <sys_id>7c127126db9fdb0020b2fa9ebf961991</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 18:19:35</sys_updated_on>
+            <sys_updated_on>2018-07-17 14:32:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>to</element>
+            <element>status</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-05 18:19:35</sys_created_on>
-            <sys_id>250334b6db83d34020b2fa9ebf9619eb</sys_id>
+            <sys_created_on>2018-07-17 14:32:16</sys_created_on>
+            <sys_id>3c127126db9fdb0020b2fa9ebf961992</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 18:19:35</sys_updated_on>
+            <sys_updated_on>2018-07-17 14:32:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -61,55 +61,83 @@
             <element>.split</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-05 18:19:35</sys_created_on>
-            <sys_id>e10334b6db83d34020b2fa9ebf9619ec</sys_id>
+            <sys_created_on>2018-07-17 14:32:16</sys_created_on>
+            <sys_id>f8127126db9fdb0020b2fa9ebf961993</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 18:19:35</sys_updated_on>
+            <sys_updated_on>2018-07-17 14:32:16</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>meeting_type</element>
+            <element>summary</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-05 18:19:35</sys_created_on>
-            <sys_id>a10334b6db83d34020b2fa9ebf9619ed</sys_id>
+            <sys_created_on>2018-07-17 14:32:16</sys_created_on>
+            <sys_id>b8127126db9fdb0020b2fa9ebf961994</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 18:19:35</sys_updated_on>
+            <sys_updated_on>2018-07-17 14:32:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>meeting_room</element>
+            <element>location</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-05 18:19:35</sys_created_on>
-            <sys_id>610334b6db83d34020b2fa9ebf9619ee</sys_id>
+            <sys_created_on>2018-07-17 14:32:16</sys_created_on>
+            <sys_id>78127126db9fdb0020b2fa9ebf961995</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 18:19:35</sys_updated_on>
+            <sys_updated_on>2018-07-17 14:32:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>conference_line</element>
+            <element>from</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-07-05 18:19:35</sys_created_on>
-            <sys_id>210334b6db83d34020b2fa9ebf9619ef</sys_id>
+            <sys_created_on>2018-07-17 14:32:16</sys_created_on>
+            <sys_id>38127126db9fdb0020b2fa9ebf961996</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-07-05 18:19:35</sys_updated_on>
+            <sys_updated_on>2018-07-17 14:32:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>to</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-17 14:32:16</sys_created_on>
+            <sys_id>f4127126db9fdb0020b2fa9ebf961997</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-17 14:32:16</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>description</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-07-17 14:32:16</sys_created_on>
+            <sys_id>b4127126db9fdb0020b2fa9ebf961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_bp3g_driven_meeting" sys_domain="global" view="Default view">05727476db83d34020b2fa9ebf96198c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-07-17 14:32:16</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>

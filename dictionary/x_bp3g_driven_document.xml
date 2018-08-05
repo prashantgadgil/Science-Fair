@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Document" max_length="40" name="x_bp3g_driven_document" text_index="true" type="collection">
+        <element label="Client" max_length="32" name="client" reference="x_bp3g_driven_client" type="reference"/>
+        <element label="Document Type" max_length="40" name="document_type" type="string"/>
+        <element label="File Name" max_length="100" name="file_name" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <index name="index">
+            <element name="client"/>
+        </index>
+    </element>
+</database>

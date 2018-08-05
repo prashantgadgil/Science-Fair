@@ -1,10 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="BP3 Employee" max_length="40" name="x_bp3g_driven_bp3_employee" type="collection">
+    <element label="BP3 Employee" max_length="40" name="x_bp3g_driven_bp3_employee" text_index="true" type="collection">
         <element label="Client" max_length="32" name="client" reference="x_bp3g_driven_client" type="reference"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
-        <element choice="1" label="Role" max_length="40" name="role" type="choice">
-            <choice/>
+        <element choice="3" default="Consultant" label="Role" mandatory="true" max_length="40" name="role" type="choice">
+            <choice>
+                <element label="Consultant" sequence="0" value="Consultant"/>
+                <element label="Business Analyst" sequence="1" value="Business Analyst"/>
+                <element label="Client Partner" sequence="2" value="Client Partner"/>
+                <element label="Project Manager" sequence="3" value="Project Manager"/>
+                <element label="Finance Rep" sequence="4" value="Finance Rep"/>
+            </choice>
         </element>
         <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">

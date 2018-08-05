@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Client Employee" max_length="40" name="x_bp3g_driven_client_employee" type="collection">
+    <element label="Client Employee" max_length="40" name="x_bp3g_driven_client_employee" text_index="true" type="collection">
         <element label="Client" max_length="32" name="client" reference="x_bp3g_driven_client" type="reference"/>
         <element label="Email" max_length="40" name="email" type="string"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>

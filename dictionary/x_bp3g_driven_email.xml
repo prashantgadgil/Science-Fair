@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Email" max_length="40" name="x_bp3g_driven_email" text_index="true" type="collection">
+        <element label="Body" max_length="10000" name="body" type="html"/>
+        <element label="CC Email" max_length="1000" name="cc_email" type="string"/>
+        <element label="Client" max_length="32" name="client" reference="x_bp3g_driven_client" type="reference"/>
+        <element label="From Email" max_length="100" name="from_email" type="string"/>
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Received Date" max_length="40" name="received_date" type="glide_date_time"/>
+        <element label="Snippet" max_length="40" name="snippet" type="string"/>
+        <element label="Subject" max_length="100" name="subject" type="string"/>
+        <element label="To Email" max_length="1000" name="to_email" type="string"/>
+        <index name="index">
+            <element name="client"/>
+        </index>
+    </element>
+</database>

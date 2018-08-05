@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element label="Meeting" max_length="40" name="x_bp3g_driven_meeting" type="collection">
+    <element label="Meeting" max_length="40" name="x_bp3g_driven_meeting" text_index="true" type="collection">
         <element label="Client" max_length="32" name="client" reference="x_bp3g_driven_client" type="reference"/>
-        <element label="Conference Line" max_length="40" name="conference_line" type="string"/>
+        <element label="Description" max_length="40" name="description" type="string"/>
         <element label="From" max_length="40" name="from" type="glide_date_time"/>
-        <element label="Meeting Room" max_length="40" name="meeting_room" type="string"/>
-        <element choice="1" label="Meeting Type" max_length="40" name="meeting_type" type="choice">
-            <choice/>
-        </element>
+        <element label="ID" max_length="40" name="id" type="string"/>
+        <element label="Location" max_length="40" name="location" type="string"/>
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Status" max_length="40" name="status" type="string"/>
+        <element label="Summary" max_length="40" name="summary" type="string"/>
         <element label="To" max_length="40" name="to" type="glide_date_time"/>
         <index name="index">
             <element name="client"/>
