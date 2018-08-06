@@ -5,69 +5,55 @@
             <element>key</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-02 17:10:09</sys_created_on>
-            <sys_id>a5afa8bbdba7db0020b2fa9ebf96193a</sys_id>
+            <sys_created_on>2018-08-06 14:45:17</sys_created_on>
+            <sys_id>a2d4788ddbbb134020b2fa9ebf96193b</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Workato Config" display_value="Workato Config" name="x_bp3g_driven_client" sys_domain="global" view="Default view">7bd9388fdbc3174020b2fa9ebf9619f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-02 17:10:09</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>box_folder</element>
-            <position>1</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-02 17:10:09</sys_created_on>
-            <sys_id>65afa8bbdba7db0020b2fa9ebf96193b</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Workato Config" display_value="Workato Config" name="x_bp3g_driven_client" sys_domain="global" view="Default view">7bd9388fdbc3174020b2fa9ebf9619f4</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-02 17:10:09</sys_updated_on>
+            <sys_updated_on>2018-08-06 14:45:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>2</position>
+            <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-02 17:10:09</sys_created_on>
-            <sys_id>25afa8bbdba7db0020b2fa9ebf96193c</sys_id>
+            <sys_created_on>2018-08-06 14:45:17</sys_created_on>
+            <sys_id>6ad4788ddbbb134020b2fa9ebf96193c</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Workato Config" display_value="Workato Config" name="x_bp3g_driven_client" sys_domain="global" view="Default view">7bd9388fdbc3174020b2fa9ebf9619f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-02 17:10:09</sys_updated_on>
+            <sys_updated_on>2018-08-06 14:45:17</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>sf_account_id</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-02 17:10:09</sys_created_on>
-            <sys_id>e1afa8bbdba7db0020b2fa9ebf96193d</sys_id>
+            <sys_created_on>2018-08-06 14:45:17</sys_created_on>
+            <sys_id>2ad4788ddbbb134020b2fa9ebf96193d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Workato Config" display_value="Workato Config" name="x_bp3g_driven_client" sys_domain="global" view="Default view">7bd9388fdbc3174020b2fa9ebf9619f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-02 17:10:09</sys_updated_on>
+            <sys_updated_on>2018-08-06 14:45:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>slack_channel</element>
-            <position>4</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-08-02 17:10:09</sys_created_on>
-            <sys_id>a1afa8bbdba7db0020b2fa9ebf96193e</sys_id>
+            <sys_created_on>2018-08-06 14:45:17</sys_created_on>
+            <sys_id>e6d4788ddbbb134020b2fa9ebf96193e</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Workato Config" display_value="Workato Config" name="x_bp3g_driven_client" sys_domain="global" view="Default view">7bd9388fdbc3174020b2fa9ebf9619f4</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-08-02 17:10:09</sys_updated_on>
+            <sys_updated_on>2018-08-06 14:45:17</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
